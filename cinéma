@@ -1,0 +1,11 @@
+age = int(input("Quel est votre âge ?"))
+if age < 18:
+    prix = 7
+else:
+    prix = 12
+
+pop_corn = input("Souhaitez-vous du pop corn?(Oui,Non)")
+
+if pop_corn == "Oui":
+               prix += 5
+print("Vous devez payer",prix,"€")
