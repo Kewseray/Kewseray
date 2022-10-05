@@ -1,0 +1,16 @@
+from random import shuffle
+
+les_mot=input("Entrer la chaîne en forme de (mot1/mot2/mot3/mot4)").split("/")
+
+"""
+Si le nombre d'éléments de la liste sont inférieur à 10,afficher les deux premiers mots.
+Si le nombre d'éléments de la liste sont superieurs à 10,afficher les trois dernières.
+"""
+shuffle(les_mot)
+
+print(les_mot)
+
+if len(les_mot)<=10:
+    print(f"Les deux premiers mots sont bien{les_mot[0],les_mot[1]}")
+else:
+    print(f"Les trois dernières mots sont {les_mot[2],les_mot[3]}")
