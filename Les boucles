@@ -1,0 +1,9 @@
+for num_client in range(1,6):
+    print("Vous etês le client numéro",num_client)
+    
+ #Lister les email
+mail_e = ['kiki@gmail','koko@yt','mimi@yh']
+
+for email in mail_e:
+    print("Emails envoyé à",email)
+
